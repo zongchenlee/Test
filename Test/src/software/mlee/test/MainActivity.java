@@ -1,5 +1,6 @@
 package software.mlee.test;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
@@ -24,7 +25,7 @@ public class MainActivity extends FragmentActivity {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_main);
 		
-//		m_CFragList = new List<Fragment>();
+		m_CFragList = new ArrayList<Fragment>();
 
 		Fragment1 f1 = new Fragment1();
 		Fragment2 f2 = new Fragment2();
